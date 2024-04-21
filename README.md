@@ -1,3 +1,3 @@
-This is a mini-project which use PayOS to purchase an ebook.
+This is a mini-project that uses PayOS to purchase an ebook.
 
-To run this project, please use: npm run start.
+To run this project, please use "npm run start".
