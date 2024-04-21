@@ -17,7 +17,7 @@ app.post('/create-payment-link', async (req, res) => {
         description: 'Bi mat cua may man',
         orderCode: Math.floor(Math.random() * 1000000),
         returnUrl: DOMAIN + '/success.html',
-        cancelUrl: DOMAIN + '/cancel.html',
+        cancelUrl: DOMAIN + '/index.html',
     };
     const payment = await payos.createPaymentLink(order);
     res.redirect(303, payment.checkoutUrl);

@@ -4,6 +4,7 @@
   "main": "index.js",
   "dependencies": {
     "@payos/node": "^1.0.6",
+    "bootstrap": "^3.4.1",
     "express": "^4.19.2",
     "nodemon": "^3.1.0"
   },
