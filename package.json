@@ -1,0 +1,18 @@
+{
+  "name": "cassoentry",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "@payos/node": "^1.0.6",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon --watch index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nhan Hoang",
+  "license": "ISC",
+  "description": ""
+}
